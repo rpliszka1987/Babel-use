@@ -31,3 +31,17 @@ https://babeljs.io/
 **Running Babel**
 
 `    $ npm run build`
+
+## Babel Setup
+
+Step 1 - Initiating our npm project
+
+    $ npm init -y
+
+This step will initiate the npm package and create the **package.json** file in the directory.
+
+Step 2 - Add to package.json script to run Babel
+
+    "scripts" : {
+        "build" : "babel src -d out"
+    }
